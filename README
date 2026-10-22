@@ -1,0 +1,4 @@
+g++ --std=c++17 -c main.cpp -I/usr/include/SFML-3.0.2/include && g++ main.o -o App -L/usr/include/SFML-3.0.2/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio && export LD_LIBRARY_PATH=/usr/include/SFML-3.0.2/lib && ./App
+
+
+This program turns any file into a PNG image or bitmap image (if the file is over 1.0GB) storing the whole file and back again to confirm proper conversion
